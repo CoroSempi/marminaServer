@@ -38,8 +38,8 @@ const userSchema = new mongoose.Schema({
   },
   notes: {
     type: String,
-    required: true,
-    default: "No Prize",
+    required: false,
+    default: "No Notes",
   },
   prizeTitle: {
     type: String,
